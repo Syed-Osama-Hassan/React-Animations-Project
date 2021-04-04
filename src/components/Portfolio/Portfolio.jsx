@@ -37,26 +37,26 @@ export const Portfolio = () => {
 
           <div className="d-flex row">
             <div className="col-sm-4 offset-md-2">
-              <figure class="figure">
+              <figure className="figure">
                 <img
                   src={image1}
-                  class="figure-img img-fluid rounded"
+                  className="figure-img img-fluid rounded"
                   alt="..."
                 />
-                <figcaption class="figure-caption">
+                <figcaption className="figure-caption">
                   <h5 className="offset-md-4">Apartments</h5>
                 </figcaption>
               </figure>
             </div>
 
             <div className="col-sm-4">
-              <figure class="figure">
+              <figure className="figure">
                 <img
                   src={image2}
-                  class="figure-img img-fluid rounded"
+                  className="figure-img img-fluid rounded"
                   alt="..."
                 />
-                <figcaption class="figure-caption">
+                <figcaption className="figure-caption">
                   <h5 className="offset-md-4">Urban Furniture</h5>
                 </figcaption>
               </figure>
@@ -65,26 +65,26 @@ export const Portfolio = () => {
 
           <div className="d-flex row">
             <div className="col-sm-4 offset-md-2">
-              <figure class="figure">
+              <figure className="figure">
                 <img
                   src={image3}
-                  class="figure-img img-fluid rounded"
+                  className="figure-img img-fluid rounded"
                   alt="..."
                 />
-                <figcaption class="figure-caption">
+                <figcaption className="figure-caption">
                   <h5 className="offset-md-4">Graspic</h5>
                 </figcaption>
               </figure>
             </div>
 
             <div className="col-sm-4">
-              <figure class="figure">
+              <figure className="figure">
                 <img
                   src={image4}
-                  class="figure-img img-fluid rounded"
+                  className="figure-img img-fluid rounded"
                   alt="..."
                 />
-                <figcaption class="figure-caption">
+                <figcaption className="figure-caption">
                   <h5 className="offset-md-4">
                     Degital Outdoor Media Operator
                   </h5>

@@ -16,7 +16,13 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className={`navbar navbar-expand-lg ${colorChange? "bg-success sticky-top navbar-dark": "navbar-light bg-light"}`}>
+      <nav
+        className={`navbar navbar-expand-lg ${
+          colorChange
+            ? "bg-success sticky-top navbar-dark"
+            : "navbar-light bg-light"
+        }`}
+      >
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -29,7 +35,7 @@ export const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             C /\ M O
           </a>
           <div
@@ -38,29 +44,29 @@ export const Navbar = () => {
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/">
                   SERVICES
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a className="nav-link active" href="/">
                   ABOUT US
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a className="nav-link active" href="/">
                   PROJECTS
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a className="nav-link active" href="/">
                   BLOG
                 </a>
               </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle active"
-                  href="#"
+                  href="/"
                   id="navbarScrollingDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -73,7 +79,7 @@ export const Navbar = () => {
                   aria-labelledby="navbarScrollingDropdown"
                 >
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/">
                       English
                     </a>
                   </li>
@@ -81,7 +87,7 @@ export const Navbar = () => {
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/">
                       Urdu
                     </a>
                   </li>
@@ -90,7 +96,10 @@ export const Navbar = () => {
             </ul>
 
             <form className="d-flex">
-              <button className={`btn ${colorChange? 'btn-light': 'btn-success'}`} type="submit">
+              <button
+                className={`btn ${colorChange ? "btn-light" : "btn-success"}`}
+                type="submit"
+              >
                 GET IN TOUCH
               </button>
             </form>
